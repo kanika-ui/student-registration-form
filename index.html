@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="#" method="post">
+        <div class="container">
+            <label for="studentName">Student Name</label>
+            <input type="text" id="studentname" name="studentName" required>
+
+            <label for="fatherName">Father’s Name</label>
+            <input type="text" id="fatherName" name="fatherName" required>
+
+
+            <label for="motherName">Mother’s Name</label>
+            <input type="text" id="motherName" name="motherName" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="gender">Gender</label>
+
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" required placeholder="Enter address"></textarea>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="pinCode">Pin Code</label>
+            <input type="number" id="pinCode" name="pinCode" required>
+
+            <label for="course">Course Name</label>
+            <input type="text" id="course" name="course" required>
+
+            <label for="department">Department</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="year">Year / Semester</label>
+            <input type="text" id="year" name="year" required>
+
+            <label for="qualification">Previous Qualification</label>
+            <input type="text" id="qualification" name="qualification" required>
+
+            <label for="per">Percentage / Grade</label>
+            <input type="text" id="per" name="per" required>
+
+            <label for="hobbies">Hobbies</label>
+            <textarea name="hobbies" id="hobbies" required placeholder="Enter hobbies"></textarea>
+
+            <label for="pic" id="photo">Upload Photo</label>
+            <input type="file" name="pic" id="pic" required>
+
+            <label for="declaration">Declaration</label>
+            <div class="declaration">
+                <input type="checkbox" id="declaration" name="declaration" required>
+                <label for="declaration">
+                    I hereby declare that the information provided is true and correct to the best of my knowledge.
+                </label>
+            </div>
+
+            <br><br>
+
+            <button type="submit" class="submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
+
